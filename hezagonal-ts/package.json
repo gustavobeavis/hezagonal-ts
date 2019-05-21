@@ -1,0 +1,22 @@
+{
+  "name": "hezagonal-ts",
+  "version": "1.0.0",
+  "description": "Esse projeto tem como objetivo servir como base de estrutura hezagonal(port/adapters) com um adicional de CQRS para desacoplar o processo de leitura e escrita do processo de persitência.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ts",
+    "typescript",
+    "hezagonal",
+    "ddd",
+    "base"
+  ],
+  "author": "Gustavo S. Rodrigues",
+  "license": "MIT"
+}
