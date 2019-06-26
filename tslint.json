@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-config-airbnb-base",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "prettier": true,
+    "variable-name": [true, "check-format", "allow-leading-underscore"],
+    "no-unused-expression": true,
+    "no-namespace": true
+  },
+  "linterOptions": {
+    "exclude": [".vscode/*"]
+  }
+}

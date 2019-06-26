@@ -1,0 +1,12 @@
+# DEFAULT
+.vscode
+.editorconfig
+.gitignore
+.gitmodules
+./hooks
+./docs
+./public
+
+# Aplication
+./dist
+./node_modules

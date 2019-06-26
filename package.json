@@ -8,6 +8,13 @@
     "test": "test"
   },
   "scripts": {
+    "check-types": "tsc",
+    "clear": "npm run clear:build && npm run clear:modules",
+    "clear:build": "rm -rf ./dist",
+    "clear:modules": "rm -rf ./node_modules",
+    "build": "npm run build:types && npm run build:js",
+    "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
+    "build:types": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -18,5 +25,20 @@
     "base"
   ],
   "author": "Gustavo S. Rodrigues",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-register": "^6.26.0",
+    "husky": "^2.5.0",
+    "prettier": "1.18.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.5.2"
+  }
 }
