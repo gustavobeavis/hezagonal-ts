@@ -8,14 +8,23 @@
     "test": "test"
   },
   "scripts": {
+    "prestart:watch": "pm2 delete pm2.default.json",
+    "start:watch": "pm2 start --no-daemon -s pm2.default.json",
+    "stop:watch": "pm2 kill",
     "check-types": "tsc",
     "clear": "npm run clear:build && npm run clear:modules",
     "clear:build": "rm -rf ./dist",
     "clear:modules": "rm -rf ./node_modules",
     "build": "npm run build:types && npm run build:js",
-    "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
+    "build:js": "babel src --out-dir dist --extensions \".ts\" --source-maps inline",
     "build:types": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npm run lint:format && npm run lint:style",
+    "lint:fix": "npm run lint:format:fix && npm run lint:style:fix",
+    "lint:format": "prettier --check '{src,__{test}__}/**/*.ts'",
+    "lint:format:fix": "prettier --write '{src,__{test}__}/**/*.ts'",
+    "lint:style": "tslint --project .",
+    "lint:style:fix": "tslint --project . --fix"
   },
   "keywords": [
     "ts",
@@ -33,12 +42,20 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-typescript": "^7.3.3",
+    "@babel/register": "^7.4.4",
+    "@typescript-eslint/parser": "^1.11.0",
     "babel-register": "^6.26.0",
-    "husky": "^2.5.0",
+    "husky": "^2.7.0",
+    "pm2": "^3.5.1",
     "prettier": "1.18.2",
     "tslint": "^5.18.0",
+    "tslint-config-airbnb-base": "^0.3.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.0.1",
     "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "dotenv": "^8.0.0"
   }
 }

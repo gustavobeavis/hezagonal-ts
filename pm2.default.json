@@ -1,0 +1,22 @@
+{
+    "apps": [
+      {
+        "name": "DEFAULT",
+        "script": "./src",
+        "watch": [
+            "./src"
+        ],
+        "watch_delay": 1000,
+        "node_args": [
+            "--require ts-node/register",
+            "--nolazy",
+            "--inspect=0.0.0.0:9229",
+            "index.ts"
+          ],
+        "exec_mode": "fork",
+        "error_file": "./log/err.log",
+        "out_file": "./log/out.log",
+        "log_date_format": "YYYY-MM-DD HH:mm Z"
+      }
+    ]
+  }
