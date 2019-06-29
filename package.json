@@ -15,9 +15,11 @@
     "clear": "npm run clear:build && npm run clear:modules",
     "clear:build": "rm -rf ./dist",
     "clear:modules": "rm -rf ./node_modules",
+    "prebuild": "rm -rf ./dist",
     "build": "npm run build:types && npm run build:js",
     "build:js": "babel src --out-dir dist --extensions \".ts\" --source-maps inline",
-    "build:types": "tsc",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:ts": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npm run lint:format && npm run lint:style",
     "lint:fix": "npm run lint:format:fix && npm run lint:style:fix",
@@ -38,9 +40,13 @@
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
     "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
+    "@babel/preset-es2017": "^7.0.0-beta.53",
     "@babel/preset-typescript": "^7.3.3",
     "@babel/register": "^7.4.4",
     "@typescript-eslint/parser": "^1.11.0",
@@ -55,7 +61,9 @@
     "typescript": "^3.5.2"
   },
   "dependencies": {
+    "@babel/runtime": "^7.4.5",
     "@types/dotenv": "^6.1.1",
-    "dotenv": "^8.0.0"
+    "dotenv": "^8.0.0",
+    "inversify": "^5.0.1"
   }
 }

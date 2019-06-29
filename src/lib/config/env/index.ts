@@ -1,9 +1,17 @@
-import { DotenvParseOutput } from 'dotenv'
+import { config as driver } from 'dotenv'
 import { ConfigManager } from '../index'
+import { injectable } from 'inversify';
+
+@injectable()
 export class EnvConfigManager implements ConfigManager {
   private config: Map<string, Map<string, any>>
-  constructor(env: DotenvParseOutput, separator: string = '-') {
+  constructor() {
+    const separator = '-';
+    const env = driver().parsed;
     this.config = new Map()
+    if(!env){
+      return;
+    }
     const keys = Object.keys(env)
     for (let index = 0; index < keys.length; index++) {
       const key = keys[index]

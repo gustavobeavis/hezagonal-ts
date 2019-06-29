@@ -2,16 +2,14 @@
     "apps": [
       {
         "name": "DEFAULT",
-        "script": "./src",
+        "script": "./dist/index.js",
         "watch": [
-            "./src"
+            "./dist"
         ],
         "watch_delay": 1000,
         "node_args": [
-            "--require ts-node/register",
             "--nolazy",
-            "--inspect=0.0.0.0:9229",
-            "index.ts"
+            "--inspect=0.0.0.0:9229"
           ],
         "exec_mode": "fork",
         "error_file": "./log/err.log",
