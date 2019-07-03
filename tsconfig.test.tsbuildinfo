@@ -206,8 +206,8 @@
         "signature": "8d6d51a5118d000ed3bfe6e1dd1335bebfff3fef23cd2af2f84a24d30f90cc90"
       },
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/index.ts": {
-        "version": "b7f61dc64596e9bcb32885f8a8c7c7053d9a67b4a8276b460b6a4d7aa2401f8b",
-        "signature": "396a3607ca8288c7dd02dff9b04e6ffb057b3c6f3d12965421373c3da78b65cc"
+        "version": "39fcf749c1fc27ae10db2eb885d7658629d136138eb697dd2e2cc392379357f5",
+        "signature": "0bb20eeae783066bc190924b0ec9f04adfb58329de871c5b6d1cb3a51d4d585b"
       }
     },
     "options": {
@@ -227,9 +227,8 @@
       ],
       "sourceMap": true,
       "composite": true,
-      "outDir": "/Users/gustavorodrigues/Workspace/pessoal/boilerplates/hezagonal-ts/dist",
-      "emitDeclarationOnly": true,
-      "configFilePath": "/Users/gustavorodrigues/Workspace/pessoal/boilerplates/hezagonal-ts/tsconfig.json"
+      "outDir": "/Users/gustavorodrigues/Workspace/pessoal/boilerplates/hezagonal-ts/.ts-test",
+      "configFilePath": "/Users/gustavorodrigues/Workspace/pessoal/boilerplates/hezagonal-ts/tsconfig.test.json"
     },
     "referencedMap": {
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/typescript/lib/lib.es5.d.ts": [
@@ -568,92 +567,6 @@
         "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
         "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
       ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/container/container.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/constants/literal_types.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/container/container_module.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/injectable.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/tagged.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/named.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/inject.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/optional.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/unmanaged.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/multi_inject.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/target_name.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/post_construct.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/planning/metadata_reader.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/utils/id.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/decorator_utils.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/syntax/constraint_helpers.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/utils/serialization.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/utils/binding_utils.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/inversify.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/inversify.d.ts": [
         "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/constants/metadata_keys.d.ts",
         "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/container/container.d.ts",
@@ -678,6 +591,101 @@
         "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
         "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
       ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/index.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/reflect-metadata/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/bootstrap.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/inversify.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/lib/config/env/index.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/lib/config/index.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/utils/binding_utils.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/inversify.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/utils/serialization.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/syntax/constraint_helpers.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/decorator_utils.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/planning/metadata_reader.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/multi_inject.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/inject.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/container/container_module.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/constants/literal_types.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/container/container.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/interfaces/interfaces.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/injectable.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/tagged.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/named.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/optional.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/unmanaged.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/target_name.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/annotation/post_construct.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/utils/id.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
+      ],
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/inspector.d.ts": [
         "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
         "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
@@ -687,25 +695,16 @@
         "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/inspector.d.ts",
         "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
       ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts"
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/reflect-metadata/index.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
       ],
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/dotenv/index.d.ts": [
         "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts"
       ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/lib/config/env/index.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/lib/config/index.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/bootstrap.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/inversify.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/reflect-metadata/index.d.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts"
-      ],
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/index.ts": [
-        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/reflect-metadata/index.d.ts"
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts": [
+        "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -750,16 +749,16 @@
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/utils/serialization.d.ts",
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/utils/binding_utils.d.ts",
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/inversify/dts/inversify.d.ts",
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/lib/util/lib-ioc-types.ts",
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/inspector.d.ts",
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/base.d.ts",
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/ts3.2/index.d.ts",
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/dotenv/index.d.ts",
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/lib/config/index.ts",
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/reflect-metadata/index.d.ts",
-      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/lib/util/lib-ioc-types.ts",
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/lib/config/env/index.ts",
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/bootstrap.ts",
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/app.ts",
+      "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/reflect-metadata/index.d.ts",
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/index.ts"
     ]
   },

@@ -1,16 +1,20 @@
-import { config as driver } from 'dotenv'
+import { DotenvParseOutput } from 'dotenv'
 import { ConfigManager } from '../index'
-import { injectable } from 'inversify';
+import { injectable, inject } from 'inversify'
+import * as dotenv from 'dotenv';
+import { LIB_TYPES } from '../../util/lib-ioc-types';
+const defaultValue = <DotenvParseOutput>dotenv.config().parsed;
 
 @injectable()
 export class EnvConfigManager implements ConfigManager {
   private config: Map<string, Map<string, any>>
-  constructor() {
-    const separator = '-';
-    const env = driver().parsed;
+  constructor(
+    @inject(LIB_TYPES.RawConfig)
+    env: DotenvParseOutput,
+    separator:string = '-') {
     this.config = new Map()
-    if(!env){
-      return;
+    if (!env) {
+      return
     }
     const keys = Object.keys(env)
     for (let index = 0; index < keys.length; index++) {
@@ -19,7 +23,7 @@ export class EnvConfigManager implements ConfigManager {
       const splitedKeys = key.split(separator)
       const containerName: string = splitedKeys.shift() as string
       const keyParsered: string = (splitedKeys.length
-        ? splitedKeys.join('')
+        ? splitedKeys.join(separator)
         : containerName) as string
       this.set(containerName, keyParsered, value)
     }
@@ -44,12 +48,17 @@ export class EnvConfigManager implements ConfigManager {
     if (!this.config.has(containerKey)) {
       this.config.set(containerKey, new Map())
     }
+
     const container = this.config.get(containerKey)
-    if (container instanceof Map) {
-      container.set(key, value)
-      return true
+    if (!(container instanceof Map)) {
+      return false;
     }
 
-    return false
+    if(container.has(key)){
+      return false;
+    }
+
+    container.set(key, value);
+    return true;
   }
 }

@@ -1,5 +1,5 @@
-import 'reflect-metadata';
-import {} from 'inversify';
-import { main } from "./app";
+import 'reflect-metadata'
+import {} from 'inversify'
+import { main } from './app'
 
-main();
+export default main()
