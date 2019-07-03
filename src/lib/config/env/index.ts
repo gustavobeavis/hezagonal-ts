@@ -1,9 +1,9 @@
 import { DotenvParseOutput } from 'dotenv'
 import { ConfigManager } from '../index'
 import { injectable, inject } from 'inversify'
-import * as dotenv from 'dotenv';
-import { LIB_TYPES } from '../../util/lib-ioc-types';
-const defaultValue = <DotenvParseOutput>dotenv.config().parsed;
+import * as dotenv from 'dotenv'
+import { LIB_TYPES } from '../../util/lib-ioc-types'
+const defaultValue = <DotenvParseOutput>dotenv.config().parsed
 
 @injectable()
 export class EnvConfigManager implements ConfigManager {
@@ -11,7 +11,8 @@ export class EnvConfigManager implements ConfigManager {
   constructor(
     @inject(LIB_TYPES.RawConfig)
     env: DotenvParseOutput,
-    separator:string = '-') {
+    separator: string = '-'
+  ) {
     this.config = new Map()
     if (!env) {
       return
@@ -51,14 +52,14 @@ export class EnvConfigManager implements ConfigManager {
 
     const container = this.config.get(containerKey)
     if (!(container instanceof Map)) {
-      return false;
+      return false
     }
 
-    if(container.has(key)){
-      return false;
+    if (container.has(key)) {
+      return false
     }
 
-    container.set(key, value);
-    return true;
+    container.set(key, value)
+    return true
   }
 }
