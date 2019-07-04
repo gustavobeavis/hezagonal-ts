@@ -1,9 +1,6 @@
 import * as http from 'http'
 import bootstrap from './bootstrap'
-import { LIB_TYPES } from './lib/util/lib-ioc-types'
-import { ConfigManager } from './lib/config/index'
 export async function main() {
-  const container = await bootstrap()
   const status: number = 200
   const port: number = 8080
   http

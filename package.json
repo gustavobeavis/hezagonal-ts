@@ -4,47 +4,29 @@
   "description": "Esse projeto tem como objetivo servir como base de estrutura hezagonal(port/adapters) com um adicional de CQRS para desacoplar o processo de leitura e escrita do processo de persitência.",
   "main": "index.js",
   "directories": {
+    "lib": "src",
     "doc": "doc",
     "test": "test"
   },
   "scripts": {
+    "prestart:node": "npm run build",
+    "start:node": "node ./dist/index.js",
     "prestart:watch": "pm2 delete pm2.default.json",
     "start:watch": "pm2 start --no-daemon -s pm2.default.json",
     "stop:watch": "pm2 kill",
-    "check-types": "tsc",
     "clear": "npm run clear:build && npm run clear:modules",
     "clear:build": "rm -rf ./dist",
     "clear:modules": "rm -rf ./node_modules",
-    "prebuild": "rm -rf ./dist",
-    "build": "npm run build:types && npm run build:js",
-    "build:js": "babel src --out-dir dist --extensions \".ts\" --source-maps inline",
-    "build:types": "tsc --emitDeclarationOnly",
-    "build:ts": "tsc",
-    "test": "nyc mocha --opts ./test/unit/mocha.opts",
+    "prebuild": "rm -rf ./dist && rm -f tsconfig.tsbuildinfo",
+    "build": "tsc",
+    "test": "npm run test:unit",
+    "test:unit": "nyc mocha --opts ./test/unit/mocha.opts",
     "lint": "npm run lint:format && npm run lint:style",
     "lint:fix": "npm run lint:format:fix && npm run lint:style:fix",
     "lint:format": "prettier --check '{src,__{test}__}/**/*.ts'",
     "lint:format:fix": "prettier --write '{src,__{test}__}/**/*.ts'",
     "lint:style": "tslint --project .",
     "lint:style:fix": "tslint --project . --fix"
-  },
-  "nyc": {
-    "include": [
-      "src/**/*.ts",
-      "test/**/*.ts"
-    ],
-    "extension": [
-      ".ts"
-    ],
-    "require": [
-      "ts-node/register"
-    ],
-    "reporter": [
-      "text-summary",
-      "html"
-    ],
-    "sourceMap": true,
-    "instrument": true
   },
   "keywords": [
     "ts",
