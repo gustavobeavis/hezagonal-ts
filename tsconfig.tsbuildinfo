@@ -214,8 +214,8 @@
         "signature": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d"
       },
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/child_process.d.ts": {
-        "version": "5d2e80657d5993f581a82e36c005b51e1bc74b9a30fe47a7804602ba818a702c",
-        "signature": "5d2e80657d5993f581a82e36c005b51e1bc74b9a30fe47a7804602ba818a702c"
+        "version": "df18c49bd3f5c6c9497a9986bb6dd6a40ae7195a3f0265a7b558736fb7333356",
+        "signature": "df18c49bd3f5c6c9497a9986bb6dd6a40ae7195a3f0265a7b558736fb7333356"
       },
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/cluster.d.ts": {
         "version": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a",
@@ -238,8 +238,8 @@
         "signature": "b6c6861bccf209a98eeddb99bdb7bd987fb29fc52130d5d9fd2f79d3607a0a7a"
       },
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/dns.d.ts": {
-        "version": "896cd7d58e9d832392a6e374a8f8b64f142089b4d2678a2c90fd8d1d49128677",
-        "signature": "896cd7d58e9d832392a6e374a8f8b64f142089b4d2678a2c90fd8d1d49128677"
+        "version": "05e732266b5a36789fd9eb846b1f45fec1b6e318b740e3f20fc22fd95f9ebf31",
+        "signature": "05e732266b5a36789fd9eb846b1f45fec1b6e318b740e3f20fc22fd95f9ebf31"
       },
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/node_modules/@types/node/domain.d.ts": {
         "version": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa",
@@ -378,19 +378,19 @@
         "signature": "2cba9752a0198d6c9cc96bc63463020f6a00de7d8f63cfd6a5eb35975662b09a"
       },
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/lib/config/index.ts": {
-        "version": "24829cea88b5353bfc905d3a0723fa0ff55d377b7a3def6667e5362867e62899",
-        "signature": "30384f42ec8687f46f4373b83e178ca45e78905f7536ec994103770032095bda"
+        "version": "b30992a6428a0dbbd5ed1f3537e48cbad9bf679dee2d40b87216bd13fc4f517b",
+        "signature": "3a1cc0cd037160a0b2422c7fbaa308d00e0a1c374b3c6f4572d679380cc24a5a"
       },
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/lib/config/env/index.ts": {
         "version": "f0ec262e5c509a07e062960d16d0ffc606be86a7595f3c65056e7b88d6c9c9b9",
         "signature": "7bc3c9fc531f0b03f11895dc94eddc01557fb87dcb8c4fa3263f4d4fd5ec7aa2"
       },
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/bootstrap/config.ts": {
-        "version": "0b1849b6e7fb68ca2eb0f923c453083077e2dedb8db4efbc312da10375b57530",
+        "version": "97d6035213e5e692edf7bcded847e66a3e40d31db7ffe3c57e55064326714b75",
         "signature": "70537cb476f6ff148e1ed232cf53483ce168bceddbcef4c087557934972a3741"
       },
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/bootstrap/index.ts": {
-        "version": "0af58f6ae1df0e8af864dc636ffb62428c5e795a26e6a32909fcebe28fe56362",
+        "version": "034939d465cdde6898ee74d0db72f4866ee034fe8767181711f63ac309bcc06f",
         "signature": "35f24bfe6b7004fb82a413f7ef9584bd1c1860672ae82bd90ff855bbffe08d8c"
       },
       "/users/gustavorodrigues/workspace/pessoal/boilerplates/hezagonal-ts/src/app.ts": {
