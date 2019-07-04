@@ -22,5 +22,5 @@ import { EnvConfigManager } from '.config/env/index';
 const config = dotenv.config({ path: '.env' });
   const envInstance = new EnvConfigManager(<dotenv.DotenvParseOutput>config.parsed);
 
-configManager.get('HOST', 'MYSQL'); // localhost
+envInstance.get('HOST', 'MYSQL'); // localhost
 ~~~~
