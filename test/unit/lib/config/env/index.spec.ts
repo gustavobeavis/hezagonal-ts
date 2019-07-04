@@ -14,12 +14,17 @@ describe('LIB:CONFIG:ENV', async () => {
   it('Should return an enviroment variable in container DB',
     () => {
       const result = 'localhost';
-      expect(envInstance.get('DB', 'MONGO-HOST')).to.be.equal(result);
+      expect(envInstance.get('MONGO-HOST', 'DB')).to.be.equal(result);
+  });
+
+  it('Should return an enviroment variable in container DEFAULT',
+    () => {
+      expect(envInstance.get( 'WITHOUTCONTAINER')).to.be.equal(result);
   });
 
   it('Should return an invalid variable in container DB',
     () => {
-      return expect(envInstance.get('DB', 'INVALID')).to.be.undefined;
+      return expect(envInstance.get('INVALID','DB')).to.be.undefined;
   });
 
   it('Should return an invalid enviroment variable in container DB',
@@ -31,8 +36,8 @@ describe('LIB:CONFIG:ENV', async () => {
     () => {
       const result = 'localhost';
       const fake:any = envInstance;
-      const set:boolean  = fake.set('DB', 'MONGO-HOST', 'invalid');
+      const set:boolean  = fake.set('MONGO-HOST', 'DB', 'invalid');
       expect(set).to.be.false;
-      expect(fake.get('DB', 'MONGO-HOST')).to.be.equal(result);
+      expect(fake.get('MONGO-HOST', 'DB')).to.be.equal(result);
   });
 })
