@@ -19,6 +19,7 @@ describe('LIB:CONFIG:ENV', async () => {
 
   it('Should return an enviroment variable in container DEFAULT',
     () => {
+      const result = '1';
       expect(envInstance.get( 'WITHOUTCONTAINER')).to.be.equal(result);
   });
 
