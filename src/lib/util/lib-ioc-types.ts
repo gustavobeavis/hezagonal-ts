@@ -1,3 +1,4 @@
 export const LIB_TYPES = {
-  ConfigManager: Symbol('ConfigManager')
-};
+  ConfigManager: Symbol('ConfigManager'),
+  RawConfig: Symbol('RawConfig'),
+}
