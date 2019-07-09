@@ -1,4 +1,4 @@
 export interface Validate {
-  add(error: Error): this;
-  run(): Promise<void | Error>;
+  add(error: Error): this
+  run(): Promise<void | Error>
 }
