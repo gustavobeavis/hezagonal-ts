@@ -23,8 +23,8 @@
     "test:unit": "nyc mocha --opts ./test/unit/mocha.opts",
     "lint": "npm run lint:format && npm run lint:style",
     "lint:fix": "npm run lint:format:fix && npm run lint:style:fix",
-    "lint:format": "prettier --check '{src,__{test}__}/**/*.ts'",
-    "lint:format:fix": "prettier --write '{src,__{test}__}/**/*.ts'",
+    "lint:format": "prettier --check '{src,test}/**/*.ts'",
+    "lint:format:fix": "prettier --write '{src,test}/**/*.ts'",
     "lint:style": "tslint --project .",
     "lint:style:fix": "tslint --project . --fix"
   },

@@ -1,9 +1,9 @@
-import { ValidatorVError } from '../../../../../../src/lib/validator/verror/index';
+import { ValidatorVError } from '../../../../../../src/lib/validator/verror/index'
 export class EmptyErrorList extends ValidatorVError {
-  constructor(){
-    super();
+  constructor() {
+    super()
   }
   count(): number {
-    return  this.errors.length;
+    return this.errors.length
   }
 }
