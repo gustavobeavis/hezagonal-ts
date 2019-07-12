@@ -2,6 +2,7 @@ import { User } from '../../../common/models/user'
 import { MultiError } from 'VError'
 import { ValidatorVError } from '../../../../lib/validator/verror/index'
 import { InavlidName, InavlidDisplayName, InavlidEmail } from './errors';
+import logger from '../../../../lib/logger/singleton'
 export class ValidateUser extends ValidatorVError {
   private user: User
   constructor(user: User) {
@@ -38,6 +39,7 @@ export class ValidateUser extends ValidatorVError {
       .email()
 
     if (this.errors.length) {
+      logger.error('Error on validate user')
       throw new MultiError(this.errors)
     }
 
