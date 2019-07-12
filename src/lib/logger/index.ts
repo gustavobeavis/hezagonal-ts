@@ -1,6 +1,6 @@
 export interface Logger {
-  info(message: string, details?: object | string | boolean | null): void
-  warn(message: string, details?: object | string | boolean | null): void
-  error(message: string, details?: object | string | boolean | null): void
-  debug(message: string, details?: object | string | boolean | null): void
+  info(message: any, ...optionalParams: any[]): void
+  warn(message: any, ...optionalParams: any[]): void
+  error(message: any, ...optionalParams: any[]): void
+  debug(message: any, ...optionalParams: any[]): void
 }

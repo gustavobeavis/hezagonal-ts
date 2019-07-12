@@ -1,4 +1,4 @@
-import CommonError from '../../../../lib/error/index';
+import CommonError from '../../../../lib/error/index'
 
 export class InavlidEmail extends CommonError {
   message = 'Invalid E-mail'

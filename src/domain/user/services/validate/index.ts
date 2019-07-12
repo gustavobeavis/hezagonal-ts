@@ -1,8 +1,8 @@
 import { User } from '../../../common/models/user'
 import { MultiError } from 'VError'
 import { ValidatorVError } from '../../../../lib/validator/verror/index'
-import { InavlidName, InavlidDisplayName, InavlidEmail } from './errors';
-import logger from '../../../../lib/logger/singleton'
+import { InavlidName, InavlidDisplayName, InavlidEmail } from './errors'
+import logger  from '../../../../lib/logger/instance'
 export class ValidateUser extends ValidatorVError {
   private user: User
   constructor(user: User) {
