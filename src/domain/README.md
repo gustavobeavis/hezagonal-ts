@@ -31,5 +31,7 @@ Essa pasta ou arquivo deve conter os erros da classe principal do serviço orque
 ### service.ts
 Essa classe deve orquestrar o consumo dos serviços, clients de modo que entrege um método ou conjunto de métodos a serem expostos pelo domínio. Assumindo que essa é a única classe a ser exposta pelo domínio.
 
+É possível também lidar com uma estrutura de comands, onde os comandos são acessíveis externamente e por eles são realizadas as operações do sistema.
+
 ### index.ts
 Esse arquivo deve conter a interface da classe de serviço principal a ser exposta.
