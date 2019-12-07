@@ -7,6 +7,6 @@ export default async function(): Promise<Container> {
     skipBaseClassChecks: true,
   })
 
-  container = await config(container)
+  await config(container)
   return container
 }

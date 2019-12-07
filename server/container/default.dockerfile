@@ -4,7 +4,7 @@ ARG app_port=8085
 ARG app_debug_port=9229
 
 ## BUILD ##
-FROM node:10-alpine AS build
+FROM node:12 AS build
 ## ENV ##
 ENV NODE_ENV $app_env
 ENV PORT $app_port
@@ -28,7 +28,7 @@ RUN npm run clear:modules
 RUN npm install --production
 
 ## APPLICATION ##
-FROM node:10-alpine as app
+FROM node:12-alpine as app
 
 ## ENV ##
 ENV NODE_ENV $app_env
