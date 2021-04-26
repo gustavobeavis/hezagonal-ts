@@ -78,7 +78,7 @@
     "@types/dotenv": "6.1.1",
     "@types/verror": "^1.10.3",
     "dotenv": "8.0.0",
-    "inversify": "5.0.1",
+    "inversify": "5.1.1",
     "verror": "^1.10.0"
   }
 }
